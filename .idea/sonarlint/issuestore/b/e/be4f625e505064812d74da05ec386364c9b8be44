@@ -1,0 +1,6 @@
+
+Rsquid:S2696R"6Make the enclosing method "static" or remove this set.(…Â‚¿ûÿÿÿÿ
+gsquid:UselessImportCheck"7Remove this unused import 'android.widget.ProgressBar'.(³ñÿŸùÿÿÿÿ8’äè¤Ù,
+nsquid:UselessImportCheck
+"CRemove this unused import 'android.support.annotation.DrawableRes'.(âõ8Ö‡€¦Ù,
+Hsquid:S1068"+Remove this unused "context" private field.(êİç8§Ã€¦Ù,

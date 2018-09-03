@@ -1,0 +1,30 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/xframe_loading_view"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:padding="10dp"
+    android:background="#ffffff"
+    android:orientation="horizontal">
+
+    <!--android:indeterminateTint="#f63b4a"   自定义颜色-->
+    <!--android:indeterminateDrawable="@drawable/progressbar_cycle_color"  自定义样式-->
+    <com.charles.myview.myview.widgets.ColorfulProgressBar
+        android:id="@+id/xframe_loading_progressbar"
+        style="@style/Widget.AppCompat.ProgressBar"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_gravity="center"/>
+
+
+    <TextView
+        android:visibility="visible"
+        android:id="@+id/xframe_loading_message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text=""
+        android:textColor="#595959"
+        android:textSize="13sp" />
+
+</LinearLayout>

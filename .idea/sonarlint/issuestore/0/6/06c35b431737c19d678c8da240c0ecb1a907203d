@@ -1,0 +1,13 @@
+
+msquid:UselessImportCheck"=Remove this unused import 'android.animation.ObjectAnimator'.(õ¶—Èýÿÿÿÿ8²ÓÑ¥Ù,
+psquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ü¾ùÄ8‰Œ¶¤Ù,
+jsquid:UselessImportCheck"?Remove this unused import 'android.content.res.ColorStateList'.(Ç¦µ·8®Þ‰¥Ù,
+gsquid:UselessImportCheck"7Remove this unused import 'android.widget.ProgressBar'.(³ñÿŸùÿÿÿÿ8™¨õ¤Ù,
+}squid:UselessImportCheck"RRemove this unused import 'com.charles.myview.myview.widgets.ColorfulProgressBar'.(¸ŠÆâ8ä°’¥Ù,
+lsquid:UselessImportCheck"<Remove this unused import 'android.content.DialogInterface'.(Š­›¨þÿÿÿÿ8¯ Ð¥Ù,
+usquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(éð›¯üÿÿÿÿ8‰Œ¶¤Ù,
+psquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÆºÝ8‰Œ¶¤Ù,
+asquid:UselessImportCheck"7Remove this unused import 'android.animation.Animator'.(ÝŸéN8²âÏ¥Ù,
+jsquid:MaximumInheritanceDepth"<This class has 7 parents which is greater than 5 authorized.(Œ‘…¹ÿÿÿÿÿ
+psquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(øž“Ñ8‰Œ¶¤Ù,
+\"squid:SwitchLastCaseIsDefaultCheck/""Add a default case to this switch.(×“¾ñùÿÿÿÿ8±‚º¤Ù,

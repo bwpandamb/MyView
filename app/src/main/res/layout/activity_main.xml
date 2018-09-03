@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.charles.myview.myview.MainActivity">
+
+    <Button
+        android:id="@+id/btn_progressbar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="进度条"
+        app:layout_constraintEnd_toStartOf="@+id/btn_progressbar2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_progressbar2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="进度条"
+        app:layout_constraintEnd_toStartOf="@+id/btn_progressbar3"
+        app:layout_constraintStart_toEndOf="@+id/btn_progressbar"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <Button
+        android:id="@+id/btn_progressbar3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="进度条"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/btn_progressbar2"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <Button
+        android:id="@+id/btn_progressbar4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="进度条"
+        app:layout_constraintEnd_toStartOf="@+id/btn_progressbar5"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_progressbar" />
+
+
+    <Button
+        android:id="@+id/btn_progressbar5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="进度条"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/btn_progressbar4"
+        app:layout_constraintTop_toBottomOf="@+id/btn_progressbar" />
+
+
+
+
+</android.support.constraint.ConstraintLayout>

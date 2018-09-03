@@ -1,0 +1,3 @@
+
+lsquid:S00116"TRename this field "TintColor" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Жарв
+Г"squid:ClassVariableVisibilityCheck"UMake TintColor a static final constant or non-public and provide accessors if needed.(Жарв
